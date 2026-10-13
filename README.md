@@ -90,20 +90,35 @@ Open **http://127.0.0.1:8765** in your browser, add a media folder under
 
 ```
 vfx-browser/
+
 ├── main.py         # FastAPI app, API routes, watchdog, asset actions
+
 ├── db.py           # SQLite schema + canonical path/sequence helpers
+
 ├── media.py        # ffprobe wrapper + native PNG/EXR readers
+
 ├── proxy.py        # Thumbnail / preview / proxy generation
+
 ├── scanner.py      # Incremental scan, sequence grouping, missing detection
+
 ├── jobs.py         # Background job queue (2 workers)
+
 ├── static/         # Vanilla HTML/CSS/JS UI
+
 ├── data/           # SQLite catalog (the only app state)
+
 ├── cache/          # Derived files (thumbs/, proxies/, previews/)
+
 ├── requirements.txt
+
 ├── install_requirements.bat
+
 ├── run.bat
+
 ├── USAGE.md        # Full user guide
+
 └── CREDITS.md      # Dependencies, licenses, references
+
 ```
 
 ## API (summary)
