@@ -30,6 +30,8 @@ Everything runs on your machine; no cloud, no accounts, no network calls.
 - **Resilient** — missing files are detected and hidden (listed under
   *Missing files*), corrupt media fails with the exact error, interrupted jobs
   recover on restart, and restarting never regenerates existing previews.
+  
+<img src="https://github.com/acidneuron/vfx-browser/blob/main/vfxbrowser.png" alt="Descriptive Alt Text">
 
 ## Requirements
 
